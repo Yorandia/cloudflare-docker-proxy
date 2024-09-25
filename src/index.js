@@ -16,7 +16,7 @@ const routes = {
   "cloudsmith.yorandia.workers.dev": "https://docker.cloudsmith.io",
   
   // staging
-  "docker-staging.fendou.us": dockerHub,
+  "docker-staging.yorandia.worker.dev": dockerHub,
 };
 
 function routeByHosts(host) {
