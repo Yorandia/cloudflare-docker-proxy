@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.fendou.us", custom_domain = true },
-  { pattern = "quay.fendou.us", custom_domain = true },
-  { pattern = "gcr.fendou.us", custom_domain = true },
-  { pattern = "k8s-gcr.fendou.us", custom_domain = true },
-  { pattern = "k8s.fendou.us", custom_domain = true },
-  { pattern = "ghcr.fendou.us", custom_domain = true },
-  { pattern = "cloudsmith.fendou.us", custom_domain = true },
+  { pattern = "docker.2276134685.workers.dev", custom_domain = true },
+  { pattern = "quay.2276134685.workers.dev", custom_domain = true },
+  { pattern = "gcr.2276134685.workers.dev", custom_domain = true },
+  { pattern = "k8s-gcr.2276134685.workers.dev", custom_domain = true },
+  { pattern = "k8s.2276134685.workers.dev", custom_domain = true },
+  { pattern = "ghcr.2276134685.workers.dev", custom_domain = true },
+  { pattern = "cloudsmith.2276134685.workers.dev", custom_domain = true },
 ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-route = { pattern = "docker-staging.fendou.us", custom_domain = true }
+route = { pattern = "docker-staging.2276134685.workers.dev", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
