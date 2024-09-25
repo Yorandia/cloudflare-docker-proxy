@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.yorandia.workers.dev", custom_domain = true },
-  { pattern = "quay.yorandia.workers.dev", custom_domain = true },
-  { pattern = "gcr.yorandia.workers.dev", custom_domain = true },
-  { pattern = "k8s-gcr.yorandia.workers.dev", custom_domain = true },
-  { pattern = "k8s.yorandia.workers.dev", custom_domain = true },
-  { pattern = "ghcr.yorandia.workers.dev", custom_domain = true },
-  { pattern = "cloudsmith.yorandia.workers.dev", custom_domain = true },
+  { pattern = "docker.2276134685@qq.com", custom_domain = true },
+  { pattern = "quay.2276134685@qq.com", custom_domain = true },
+  { pattern = "gcr.2276134685@qq.com", custom_domain = true },
+  { pattern = "k8s-gcr.2276134685@qq.com", custom_domain = true },
+  { pattern = "k8s.2276134685@qq.com", custom_domain = true },
+  { pattern = "ghcr.2276134685@qq.com", custom_domain = true },
+  { pattern = "cloudsmith.2276134685@qq.com", custom_domain = true },
 ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-route = { pattern = "docker-staging.yorandia.workers.dev", custom_domain = true }
+route = { pattern = "docker-staging.2276134685@qq.com", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
