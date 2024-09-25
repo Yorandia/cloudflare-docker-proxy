@@ -7,16 +7,16 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.yorandia.workers.dev": dockerHub,
-  "quay.yorandia.workers.dev": "https://quay.io",
-  "gcr.yorandia.workers.dev": "https://gcr.io",
-  "k8s-gcr.yorandia.workers.dev": "https://k8s.gcr.io",
-  "k8s.yorandia.workers.dev": "https://registry.k8s.io",
-  "ghcr.yorandia.workers.dev": "https://ghcr.io",
-  "cloudsmith.yorandia.workers.dev": "https://docker.cloudsmith.io",
+  "docker.2276134685@qq.com": dockerHub,
+  "quay.2276134685@qq.com": "https://quay.io",
+  "gcr.2276134685@qq.com": "https://gcr.io",
+  "k8s-gcr.2276134685@qq.com": "https://k8s.gcr.io",
+  "k8s.2276134685@qq.com": "https://registry.k8s.io",
+  "ghcr.2276134685@qq.com": "https://ghcr.io",
+  "cloudsmith.2276134685@qq.com": "https://docker.cloudsmith.io",
   
   // staging
-  "docker-staging.yorandia.worker.dev": dockerHub,
+  "docker-staging.2276134685@qq.com": dockerHub,
 };
 
 function routeByHosts(host) {
