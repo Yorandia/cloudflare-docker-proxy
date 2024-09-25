@@ -13,8 +13,8 @@ const routes = {
   "k8s-gcr.fendou.us": "https://k8s.gcr.io",
   "k8s.fendou.us": "https://registry.k8s.io",
   "ghcr.fendou.us": "https://ghcr.io",
-  "cloudsmith.fendou.us": "https://docker.cloudsmith.io",
-
+  "cloudsmith.2276134685.workers.dev": "https://docker.cloudsmith.io",
+  
   // staging
   "docker-staging.fendou.us": dockerHub,
 };
